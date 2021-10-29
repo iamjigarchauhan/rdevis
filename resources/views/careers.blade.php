@@ -26,13 +26,23 @@
   <div class="container">
     <div class="row">
       <article class="content col-sm-12 col-md-12">
+
+		<p class="font-18">We are widely recognised as a preferred employer, both by freshers and experienced professionals in our industry.
+		</p>
+		<p class="font-18">‘If you are deeply passionate and ambitious and can turnaround challenges into opportunities, if you believe in yourself
+		and are talented, can handle challenges well, if you have the desire to learn, develop, change, innovate and grow with
+		us then come and join us’ 
+		- Rdevis Team</p>
+		
+	<p class="font-18">	We believe in creating a truly inclusive workplace with a culture that values, respects and encourages diversity and
+		equal opportunity.</p>
 	<?php 
 		$cnt=count($jobs);
 		for($i=0; $i<$cnt; $i++)
 		{
 	 ?>
 		<div class="row">
-		  <div class="col-sm-6 col-md-6">
+		  {{-- <div class="col-sm-6 col-md-6">
 				<div class="row list-images responsive">
 				  <!-- <div class="col-sm-4 col-md-4"> -->
 					<a class="gallery-images" rel="fancybox" href="{{URL::to('/public').Storage::url($jobs[$i]['image'])}}">
@@ -40,7 +50,7 @@
 					  <span class="bg-images"><!--<i class="fa fa-search"></i>--></span>
 					</a>
 				</div>
-		  </div>
+		  </div> --}}
 		  <div class="col-sm-6 col-md-6 text-">
 			<h4>{{$jobs[$i]['title']}}</h4>
 			<p class="text-justify"> {!!$jobs[$i]['description']!!}</p>

@@ -34,7 +34,7 @@
 			<div class="row">
 			  <div class="col-sm-6 col-md-6 contact-info bottom-padding">
 							
-				<p>{!!$inquiry_msg->inquiry_form_msg!!}</p>
+				<p class="font-18">{!!$inquiry_msg->inquiry_form_msg!!}</p>
 
 				
 				<hr>

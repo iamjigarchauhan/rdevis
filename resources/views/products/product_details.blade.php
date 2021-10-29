@@ -29,7 +29,7 @@
   </div>
 </div><!-- .breadcrumb-box -->
 
-<section id="main">
+{{-- <section id="main">
   	<header class="page-header">
     	<div class="container">
       		<h1 class="title">{{$pdata->product_name}}</h1>
@@ -70,7 +70,7 @@
   </div><!-
 
   </article><!-- .content -->
-</section><!-- #main -->
+</section><!-- #main --> --}}
 
 		  
 <div class="clearfix"></div>
