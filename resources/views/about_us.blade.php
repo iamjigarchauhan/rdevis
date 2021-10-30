@@ -6,11 +6,11 @@
 
 @section('meta_info')
 
-	<title>{{$mdata[0]['page_title']}}</title>
+<title>{{$mdata[0]['page_title']}}</title>
 
-  <meta name="keywords" content="{{$mdata[0]['meta_keywords']}}">
+<meta name="keywords" content="{{$mdata[0]['meta_keywords']}}">
 
-  <meta name="description" content="{{$mdata[0]['meta_description']}}">
+<meta name="description" content="{{$mdata[0]['meta_description']}}">
 
 @endsection
 
@@ -22,17 +22,17 @@
 
 <div class="breadcrumb-box">
 
-  <div class="container">
+	<div class="container">
 
-    <ul class="breadcrumb">
+		<ul class="breadcrumb">
 
-      <li><a href="{{url('/')}}">Home</a> </li>
+			<li><a href="{{url('/')}}">Home</a> </li>
 
-      <li class="active">About Us</li>
+			<li class="active">About Us</li>
 
-    </ul>	
+		</ul>
 
-  </div>
+	</div>
 
 </div><!-- .breadcrumb-box -->
 
@@ -40,60 +40,67 @@
 
 <section id="main">
 
-  <header class="page-header">
+	<header class="page-header">
 
-    <div class="container">
+		<div class="container">
 
-      <h1 class="title">About Us</h1>
+			<h1 class="title">About Us</h1>
 
-    </div>	
+		</div>
 
-  </header>
-
-
-
-  <div class="container">
-
-    <div class="row">
-
-	  <article class="content">
+	</header>
 
 
 
-	  	<div class="row">
+	<div class="container">
 
-			  <div class="col-sm-6 col-md-6">
+		<div class="row">
 
-					<div class="row list-images responsive">
+			<article class="content">
 
-					  <!-- <div class="col-sm-4 col-md-4"> -->
 
-						  <img class="replace-2x" src="{{asset('')}}img/careers/job1.jpg" width="600px" height="100%" alt="">
+
+				<div class="row">
+
+					<div class="col-sm-6 col-md-6">
+
+						<div class="row list-images responsive">
+
+							<!-- <div class="col-sm-4 col-md-4"> -->
+
+							<img class="replace-2x" src="{{asset('')}}img/careers/job1.jpg" width="600px" height="100%"
+								alt="">
+
+						</div>
 
 					</div>
 
-			  </div>
+					<div class="col-sm-6 col-md-6">
 
-			  <div class="col-sm-6 col-md-6">
+						<div class="row content">
 
-					<div class="row content">
+							<h6>VISION</h6>
 
-						<h6>VISION</h6>
+							<p class="text-justify">To become the leading ‘Engineering Products and Solutions Company’
+								with a focus towards constant innovation to create value and attain global standards.
+							</p>
 
-						<p class="text-justify">To become the leading ‘Engineering Products and Solutions Company’ with a focus towards constant innovation to create value and attain global standards.</p>
-						
-						<h6>MISSION</h6>
+							<h6>MISSION</h6>
 
-						<p class="text-justify">We aim to deliver innovative products and solutions that exceed the needs of its customers. Together with our exceptional people and strong stakeholder relationships, we commit to the highest standards of quality, productivity, sustainability and performance that drive shareholder value and long-term success in a responsible way.</p>
-					</div>
+							<p class="text-justify">We aim to deliver innovative products and solutions that exceed the
+								needs of its customers. Together with our exceptional people and strong stakeholder
+								relationships, we commit to the highest standards of quality, productivity,
+								sustainability and performance that drive shareholder value and long-term success in a
+								responsible way.</p>
+						</div>
 
-					<br>
+						<br>
 
-					<div class="row content">
+						<div class="row content">
 
-						<!-- <div class="bottom-padding col-sm-12 col-md-12"> -->
+							<!-- <div class="bottom-padding col-sm-12 col-md-12"> -->
 
-						 <!--  <div class="panel-group one-open" id="accordion">
+							<!--  <div class="panel-group one-open" id="accordion">
 
 							
 
@@ -223,171 +230,183 @@
 
 			  			  </div> -->
 
-						<!-- </div> -->
+							<!-- </div> -->
+
+						</div>
 
 					</div>
 
-			  </div>
-
-		</div>
+				</div>
 
 
 
-	
 
 
 
-		<!-- Our Group Companies start-->
 
-	 
+				<!-- Our Group Companies start-->
 
-	  	<!--<div class="title-box text-center">
+
+
+				<!--<div class="title-box text-center">
 		  		<h1 class="title" id="Our_Group_Companies">Our Group Companies</h1>
 		</div>-->
-		
-		<div class="title-box">
-    		 <h1 class="title">Our Group Companies</h1>
-        </div>
-        
 
-	  
+				<div class="title-box">
+					<h1 class="title">Our Group Companies</h1>
+				</div>
 
-		<div class="banner-set load bottom-padding" data-autoplay-disable="false">
 
-			<div class="container">
 
-			  <div class="banners">
 
-				<a href="#" class="banner">
+				<div class="banner-set load bottom-padding" data-autoplay-disable="false">
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253" height="158" alt="">
+					<div class="container">
 
-				  <h2 class="title"> Shani Paints </h2> 
+						<div class="banners">
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
+							<a href="#" class="banner">
 
+								<img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253"
+									height="158" alt="">
 
+								<h2 class="title"> Shani Paints </h2>
 
-				  <div class="description">Nunc condimentum eros vel nibh consectetur dignissim. Ut ante neque, ullamcorper ac feugiat at, ullamcorper sagittis magna.</div>
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				</a>
 
-				<a href="#" class="banner">
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/body-repair.jpg" width="253" height="158" alt="">
+								<div class="description">Nunc condimentum eros vel nibh consectetur dignissim. Ut ante
+									neque, ullamcorper ac feugiat at, ullamcorper sagittis magna.</div>
 
-				  <h2 class="title">Atul Chemicals</h2>
+							</a>
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
+							<a href="#" class="banner">
 
-				  
+								<img class="replace-2x" src="{{asset('')}}img/events/body-repair.jpg" width="253"
+									height="158" alt="">
 
-				  <div class="description">Maecenas ac leo velit. Aliquam venenatis tellus in erat pellentesque ut dignissim turpis consequat. Fusce sit amet sagittis urna.</div>
+								<h2 class="title">Atul Chemicals</h2>
 
-				</a>
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				<a href="#" class="banner">
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/dent_repair.jpg" width="253" height="158" alt="">
 
-				  <h2 class="title">Ramaji Paints</h2>
+								<div class="description">Maecenas ac leo velit. Aliquam venenatis tellus in erat
+									pellentesque ut dignissim turpis consequat. Fusce sit amet sagittis urna.</div>
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
+							</a>
 
-				  
+							<a href="#" class="banner">
 
-				  <div class="description">Phasellus quis mauris non mauris sceleris vehicula. Vestibulum ipsum odio, placerat sed consequat in, congue non nibh.</div>
+								<img class="replace-2x" src="{{asset('')}}img/events/dent_repair.jpg" width="253"
+									height="158" alt="">
 
-				</a>
+								<h2 class="title">Ramaji Paints</h2>
 
-				<a href="#" class="banner">
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/body-repair.jpg" width="253" height="158" alt="">
 
-				  <h2 class="title">Balaji Colors</h2>
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
+								<div class="description">Phasellus quis mauris non mauris sceleris vehicula. Vestibulum
+									ipsum odio, placerat sed consequat in, congue non nibh.</div>
 
-				  
+							</a>
 
-				  <div class="description">Maecenas et massa odio, tincidunt ultrices sapien. Praesent non tortor quis metus posuere gravida at quis nulla.</div>
+							<a href="#" class="banner">
 
-				</a>
+								<img class="replace-2x" src="{{asset('')}}img/events/body-repair.jpg" width="253"
+									height="158" alt="">
 
-				<a href="#" class="banner">
+								<h2 class="title">Balaji Colors</h2>
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253" height="158" alt="">
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				  <h2 class="title">Harekrishna Paints</h2>
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				  
+								<div class="description">Maecenas et massa odio, tincidunt ultrices sapien. Praesent non
+									tortor quis metus posuere gravida at quis nulla.</div>
 
-				  <div class="description">Nunc condimentum eros vel nibh consectetur dignissim. Ut ante neque, ullamcorper ac feugiat at, ullamcorper sagittis magna.</div>
+							</a>
 
-				</a>
+							<a href="#" class="banner">
 
-				<a href="#" class="banner">
+								<img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253"
+									height="158" alt="">
 
-				  <img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253" height="158" alt="">
+								<h2 class="title">Harekrishna Paints</h2>
 
-				  <h2 class="title">Shankar Paints</h2>
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				  <span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-				  
 
-				  <div class="description">Maecenas ac leo velit. Aliquam venenatis tellus in erat pellentesque ut dignissim turpis consequat. Fusce sit amet sagittis urna.</div>
+								<div class="description">Nunc condimentum eros vel nibh consectetur dignissim. Ut ante
+									neque, ullamcorper ac feugiat at, ullamcorper sagittis magna.</div>
 
-				</a>
+							</a>
 
-			  </div><!-- .banners -->
+							<a href="#" class="banner">
 
-			  <div class="clearfix"></div>
+								<img class="replace-2x" src="{{asset('')}}img/events/body_polishing.jpg" width="253"
+									height="158" alt="">
 
-			</div>
+								<h2 class="title">Shankar Paints</h2>
 
-			<div class="nav-box">
+								<span class="pull-left"><i class="fa fa-map-marker"></i> Surat</span>&nbsp;&nbsp;
 
-			  <div class="container">
 
-				<a class="prev" href="#"><span class="glyphicon glyphicon-arrow-left"></span></a>
 
-				<div class="pagination switches"></div>
+								<div class="description">Maecenas ac leo velit. Aliquam venenatis tellus in erat
+									pellentesque ut dignissim turpis consequat. Fusce sit amet sagittis urna.</div>
 
-				<a class="next" href="#"><span class="glyphicon glyphicon-arrow-right"></span></a>	
+							</a>
 
-			  </div>
+						</div><!-- .banners -->
 
-			</div>
+						<div class="clearfix"></div>
 
-		</div><!-- Our Group Companies end -->
+					</div>
 
+					<div class="nav-box">
 
+						<div class="container">
 
+							<a class="prev" href="#"><span class="glyphicon glyphicon-arrow-left"></span></a>
 
+							<div class="pagination switches"></div>
 
-		<!-- managment start -->
+							<a class="next" href="#"><span class="glyphicon glyphicon-arrow-right"></span></a>
 
-		<div class="title-box" id="Managment">
-		  		<h1 class="title" id="Management">Management</h1>
-		</div>
-		
+						</div>
 
-		<div class="clearfix"></div>
+					</div>
 
+				</div><!-- Our Group Companies end -->
 
 
 
 
-	    <div class="row">
 
-	      <div class="content portfolio portfolio4 col-sm-12 col-md-12">
+				<!-- managment start -->
 
-			
+				<div class="title-box" id="Managment">
+					<h1 class="title" id="Management">Management</h1>
+				</div>
 
-			<!-- <div class="row">
+
+				<div class="clearfix"></div>
+
+
+
+
+
+				<div class="row">
+
+					<div class="content portfolio portfolio4 col-sm-12 col-md-12">
+
+
+
+						<!-- <div class="row">
 
 			  <div class="col-sm-12 col-md-8">
 
@@ -423,15 +442,15 @@
 
 			</div> -->
 
-			
 
-			<div class="clearfix"></div>
 
-			
+						<div class="clearfix"></div>
 
-			<div class="row filter-elements">
 
-			<?php 
+
+						<div class="row filter-elements">
+
+							<?php 
 
 				foreach ($management as $key => $value) {
 
@@ -441,71 +460,79 @@
 
 			 ?>
 
-			  
-
-			  <div class="founder col-xs-12 col-sm-4 col-md-3">
-
-				<a href="{{url('/about-us/portfolio/'.$management[$key]->id)}}" class="work">
-
-				  <img class="replace-2x" src="{{URL::to('/public').Storage::url($management[$key]->image)}}" width="370" height="270" alt="">
-
-				  <span class="shadow"></span>
-
-				  <div class="bg-hover"></div>
-
-				  <div class="work-title">
-
-				<h3 class="title">{{$management[$key]->name}}</h3>
-
-				<div class="description">{{$management[$key]->designation}}</div>
-
-				  </div>
-
-				</a>
-
-			  </div>
-
-			<?php } ?>
-
-			 
 
 
+							<div class="founder col-xs-12 col-sm-4 col-md-3">
 
-			</div>
+								<a href="{{url('/about-us/portfolio/'.$management[$key]->id)}}" class="work">
 
-	      </div><!-- .content -->
+									<img class="replace-2x"
+										src="{{URL::to('/public').Storage::url($management[$key]->image)}}" width="370"
+										height="270" alt="">
 
-	    </div>
+									<span class="shadow"></span>
 
-  
+									<div class="bg-hover"></div>
 
-  		<!-- managment end -->
+									<div class="work-title">
+
+										<h3 class="title">{{$management[$key]->name}}</h3>
+
+										<div class="description">{{$management[$key]->designation}}</div>
+
+									</div>
+
+								</a>
+
+							</div>
+
+							<?php } ?>
 
 
 
 
 
+						</div>
 
+					</div><!-- .content -->
 
-  		<!-- values start -->
-
-		<div class="title-box">
-		  		<h1 class="title" id="Values">Values</h1>
-		</div>
+				</div>
 
 
 
-		<div class="row"></div>
+				<!-- managment end -->
 
-			<div class="bottom-padding col-sm-12 col-md-12">
 
-				<p class="text-justify">
 
-					Ambition, Dynamism, Honor Dignity & Sanctity, Integrity  Passion Respect, Strong Drive for Growth, Strive for Innovation & Excellence,  Stand for Truth and Transparency, Welcome & Embrace Change
 
-				</p> 
 
-		  	</div>
+
+
+				<!-- values start -->
+
+				<div class="title-box">
+					<h1 class="title" id="Values">Values</h1>
+				</div>
+
+
+
+				<div class="row"></div>
+
+				<div class="bottom-padding col-sm-12 col-md-12">
+
+					<ul class="text-justify">
+
+						<li>Ambition</li>
+						<li>Dynamism</li>
+						<li>Honor Dignity & Sanctity</li>
+						<li>Integrity Passion Respect</li>
+						<li>Strong Drive for Growth</li>
+						<li>Strive for Innovation & Excellence</li>
+						<li>Stand for Truth and Transparency</li>
+						<li>Welcome & Embrace Change</li>
+					</ul>
+
+				</div>
 
 		</div>
 
@@ -515,21 +542,22 @@
 
 
 
-	<!-- certifications  start-->
+		<!-- certifications  start-->
 
-	  <!--	<div class="title-box" >
+		<!--	<div class="title-box" >
 		  	<h1 class="title">Certifications</h1>
 		</div>-->
 		<div class="title-box">
-		  		<h1 class="title" id="Certifications">Certifications</h1>
+			<h1 class="title" id="Certifications">Certifications</h1>
 		</div>
 
-	<!--	<div class="clearfix"></div>-->
-			
-		
+		<!--	<div class="clearfix"></div>-->
+
+
 		<div class="row">
 			<?php foreach ($certification as $key => $value) { ?>
-			<div class="content-block text-center frame-shadow" style="<?php if($key!=0){echo "margin-top:4%;";}else{ echo ""; } ?>" >
+			<div class="content-block text-center frame-shadow" style="<?php if($key!=0){echo " margin-top:4%;";}else{
+				echo "" ; } ?>" >
 				<p class="lead"> {{$certification[$key]->description}}</p>
 			</div>
 			<?php } ?>
@@ -540,9 +568,9 @@
 
 
 
-  		<!-- location start -->
+		<!-- location start -->
 
-  <!-- 		<div class="map-box bottom-padding">
+		<!-- 		<div class="map-box bottom-padding">
 
 							 
 
@@ -588,7 +616,7 @@
 
 
 
-	  </article>
+		</article>
 
 </section>
 
